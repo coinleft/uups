@@ -1,5 +1,5 @@
 
-#### how to use 
+## How to use 
 1. forge install 
 ```
 forge install OpenZeppelin/openzeppelin-contracts-upgradeable
@@ -30,5 +30,7 @@ forge script script/Upgrade.s.sol:UpgradeScript --rpc-url $URL --broadcast
 
 5. reference
 https://www.rareskills.io/post/uups-proxy
+
 https://github.com/OpenZeppelin/openzeppelin-contracts
+
 https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
