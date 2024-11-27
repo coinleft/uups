@@ -1,3 +1,28 @@
+
+
+
+
+## how to use 
+1. forge install 
+
+forge install OpenZeppelin/openzeppelin-contracts-upgradeable
+to use 
+
+
+2. Add @openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/ in remappings.txt.
+3. add .env
+KEY=0x123
+URL=
+
+export $(grep -v '^#' .env | xargs)
+
+
+
+
+
+https://www.rareskills.io/post/uups-proxy
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
