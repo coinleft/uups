@@ -7,8 +7,8 @@ import {CounterV1} from "../src/CounterV1.sol";
 
 contract CounterScript is Script {
     CounterV1 public counterV1;
-    // set up your EOA address 
-    address owner = 0x123;
+    // set up your EOA address
+    address owner = 0xYourOwnAddress;
     function setUp() public {}
 
     function run() public {

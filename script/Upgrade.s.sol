@@ -10,7 +10,7 @@ import "../src/CounterV2.sol";
 contract UpgradeScript is Script {
     CounterV2 public counterV2;
     // Change to proxy contract address
-    address proxyAddress = 0xfB4BD4EB730cB43F966A0851ba8F3de4c0bC9fF4;
+    address proxyAddress = '0x_your_proxy_address';
 
     function setUp() public {}
 
